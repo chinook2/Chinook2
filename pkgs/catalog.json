@@ -1,0 +1,42 @@
+{
+  "format": "1",
+  "packages": [
+    {
+      "name": "ck-viewer",
+      "format": "1",
+      "version": "2.0.0",
+      "creator": "Memoris",
+      "summary": "Chinook Client package",
+      "detailedDescription": "Chinook Client package provide components for a GIS web viewer interface using OpenLayers 3",
+      "type": "code",
+      "signatures": [
+        {
+          "name": "Memoris",
+          "uuid": "1ed563c8-10a2-491a-899f-cf3b0f2e2d4b",
+          "created": "2015-07-03T13:24:07Z",
+          "algorithm": "SHA1withRSA",
+          "nonce": "N8p9dhpgD+I\u003d",
+          "signature": "Al5+8U/HkOIKzjEvHdZJrf9zyATQ7OKjLymPqRdH7iDlMY8BeI8u5P3GsS1zwYBD/vBomXjUpTgwbs5Xy5WnQgNrznAooCTgJjfqTOVn86SsenLQ+mZWwXpA9/A0TXK7GUQm6VT4I6IXYmHWRJ15XTmn5TbEudKOzqrok34NnYphZEk5onWhajfLQ7afC4EuGeptoUOAE8D5vKW6hmVk5M44ROMrdmHXYDMG3xAMAfIKOEbVxtCYUvFQbDYDRRaWJupFkcOLiTiM4Nc2SWd2fHle+DfTPN5nqfh9Dl2vEtago5+RyLu4cL8dwUs7TVHm28zxo0/KHWjH36GAml3m+A\u003d\u003d"
+        }
+      ],
+      "js": [
+        {
+          "path": "libs/ol3/ol-debug.js"
+        }
+      ],
+      "css": [
+        {
+          "path": "libs/ol3/ol.css"
+        }
+      ],
+      "slicer": {
+        "js": [
+          {
+            "path": "${package.dir}/sass/example/custom.js",
+            "isWidgetManifest": true
+          }
+        ]
+      }
+    }
+  ]
+}

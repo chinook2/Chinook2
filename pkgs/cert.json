@@ -1,0 +1,23 @@
+{
+  "data": {
+    "created": "2015-07-03T13:22:32Z",
+    "email": "j.margail@memoris.fr",
+    "expires": "2020-07-04T00:00:00Z",
+    "name": "Memoris",
+    "uuid": "1ed563c8-10a2-491a-899f-cf3b0f2e2d4b"
+  },
+  "publicKey": {
+    "algorithm": "RSA",
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkJbp9dLGvV0zqk8xysLuXyLOm7prY4U3FL7o5M8u22TV1D0JRWCr46Dqsn8x8F2Kb1qVWIiv+YXmsPfgaXZPyFPrQ6ktG3IX25WQnFOo1j83Z+YHxcYAh+7/1IQrA65YGjztMD9PEhcSH34IQQTqWvTV4xCgRImHnotS7m2YaHtRpFwwGQwyHGLUNWgR+WDhtPYuidLrrl4dZGK4BpXdOJMA/n7HvzwuE47/HkLDxK/O9xNUpycW68VTav79Kj9sVoo4BQsdjfBJ4hoCEGziT9CTQ7LjJQzPGKpG4fQ37vAx2GLKCGjcHK0rbYLG9i6A9YT5NRdnwX7UPRrCNutJhwIDAQAB"
+  },
+  "signatures": [
+    {
+      "name": "Memoris",
+      "uuid": "1ed563c8-10a2-491a-899f-cf3b0f2e2d4b",
+      "created": "2015-07-03T13:22:35Z",
+      "algorithm": "SHA1withRSA",
+      "nonce": "cx5z3+Unbg4\u003d",
+      "signature": "hIXxg2reinXLGbECE3n+rD5EPKXz4c84EyVto1XKJeWPiDrzwgc77ITZNQ4CUwU8vVL1ij7drHtc+ciM/EMafVjDmQ/auh2x5HpUPcUKtQ8PdRfNlXCPVSThfghcAyEPw9bXlR/yjH4kkWyKM2hagpYGUEWzYOE6g2i1zl4NsWwwCSXOmbMxgVf0rW70kW73QY7UIsMW6ODyZTxKinm38coh56Cmul/3JentzFPBXJc4XOQ9gWotk8WoEJDgcGM7GtNPsvwImkWlrni5u+cG3fomG8FWTV9eMS76hgyeMtmYjibiaYWdukjqSY9NA1bJ6DzGVtUuPdSWe0dxIqWavA\u003d\u003d"
+    }
+  ]
+}
