@@ -12,9 +12,10 @@ Installer Sencha CMD de préférence dans C:\Sencha\Cmd et extJS dans C:\Sencha\
 
 ##Installation de l’application de développement 
 
-Ajout de l’application
+Ajout de l’application dans le dossier C:/projets/chinook2
 ```
->sencha -sdk /Sencha/ext-6.0.0 generate app AppDemo ck-appdemo
+>cd C:/projets/chinook2
+>sencha -sdk C:/Sencha/ext-6.0.0 generate app AppDemo ck-appdemo
 ```
 
 Edite le fichier : ck-appdemo\app.json
