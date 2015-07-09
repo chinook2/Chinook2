@@ -1,6 +1,11 @@
 # Chinook 2
 Entry point for the Chinook 2 Platform
 
+##Licence
+This project is under [BSD2 licence](http://opensource.org/licenses/BSD-2-Clause)
+
+
+
 
 ## Chinook 1
 View Chinook 1 avaible since 2008 : https://adullact.net/projects/chinookgs/
