@@ -1,8 +1,9 @@
 #Créer une nouvelle Application
 
-Ajouter le dépôt distant
+Ajouter le dépôt distant (et vérification)
 ````
 >sencha repository add ck http://chinook2.github.io/Chinook2/pkgs
+>sencha repository list
 ````
 
 Initialiser une application standard
