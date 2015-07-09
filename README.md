@@ -1,5 +1,15 @@
 # Chinook 2
-Entry point for the Chinook 2 Platform
+Entry point for the Chinook 2 Platform.
+
+* Client
+  * ck-viewer : Web viewer
+  * ck-admin : Web Admin interface
+* Server
+  * ck-server : REST API server to manage Users, Contexts, Layers...
+
+First release of ck-viewer is planned for October 2015.
+ck-admin and ck-server are planned for Q1 2016.
+
 
 ##Licence
 This project is under [BSD2 licence](http://opensource.org/licenses/BSD-2-Clause)
