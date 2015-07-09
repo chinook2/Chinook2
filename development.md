@@ -44,9 +44,10 @@ Edite le fichier : ck-appdemo\app.json
         // "fashion"
     ]
 },
-
 ````
 En ajoutant "ck-viewer" on ajoute une dépendance => l'application aura besoin du package "ck-viewer" pour fonctionner.
+
+Todo: voir si utile de préciser les paramètres "toolkit" et "theme" !
 
 Editer le fichier : ck-appdemo\classic\src\view\main\Main.js
 ````
