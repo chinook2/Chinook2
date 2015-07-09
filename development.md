@@ -26,8 +26,25 @@ Edite le fichier : ck-appdemo\app.json
 ````
 "requires": [
     "font-awesome",
+    // Chinook Package
     "ck-viewer"
 ],
+
+"development": {
+    // Allow debug in dev mode. Keep breakpoint on page reload.
+    "loader": {
+        "cache": "${build.timestamp}"
+    },
+    ///
+    "tags": [
+        // You can add this tag to enable Fashion when using app watch or
+        // you can add "?platformTags=fashion:1" to the URL to enable Fashion
+        // without changing this file.
+        //
+        // "fashion"
+    ]
+},
+
 ````
 En ajoutant "ck-viewer" on ajoute une dépendance => l'application aura besoin du package "ck-viewer" pour fonctionner.
 
