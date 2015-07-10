@@ -18,8 +18,11 @@ Ajout de l’application dans le dossier C:/projets/chinook2
 >sencha -sdk C:/Sencha/ext-6.0.0 generate app AppDemo ck-appdemo
 ```
 La commande "sencha generate app" génère une application de démo de Ext.
+
 L'option "-sdk [...]" indique l'emplacement de la librairie Ext. Si l'option est absente la version "trial" d'Ext sera téléchargée
+
 L'option "AppDemo" indique le nom de l'applicaiton
+
 L'option "ck-appdemo" indique dans quel dossier l'application doit être créée
 
 Edite le fichier : ck-appdemo\app.json
