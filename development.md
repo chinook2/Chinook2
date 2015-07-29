@@ -73,7 +73,7 @@ Cela désactive la compatibilité avec les anciens navigateurs, notamment la ges
 
 ````
 >mkdir ck-appdemo\packages\local
->"C:\Program Files (x86)\Git\bin\git.exe" clone https://github.com/chinook2/ck-viewer ck-appdemo\packages\local\ck-viewer
+>git clone https://github.com/chinook2/ck-viewer ck-appdemo\packages\local\ck-viewer
 ````
 
 
