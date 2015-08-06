@@ -58,10 +58,29 @@ On peut ajouter des modules complémentaires suivants :
 
 Swagger (http://swagger.io/) est accessible à l'url : http://localhost:8888/apigility/swagger
 
-##Mise à jour
+###Mise à jour
 
 La commande 'composer update' permet de mettre à jour le module Apigility et toutes ses dépendances (dont le Zend Framework)
 ````
 >cd C:/projets/chinook2/ck-server
 >composer update
+````
+
+##Installation des sources
+
+````
+>cd C:/projets/chinook2/ck-server
+>mkdir module/Chinook
+>git clone https://github.com/chinook2/ck-server module\Chinook
+````
+
+Editer le fichier C:\projets\chinook2\ck-server\config\modules.config.php pour ajouter le module Chinook.
+````
+return array(
+    'Application',
+    ...
+    'ZF\Versioning',
+    'Chinook'
+);
+
 ````
