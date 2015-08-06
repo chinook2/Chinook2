@@ -71,9 +71,12 @@ La commande 'composer update' permet de mettre à jour le module Apigility et to
 
 ````
 >cd C:/projets/chinook2/ck-server
->mkdir module/Chinook
+>mkdir module\Chinook
 >git clone https://github.com/chinook2/ck-server module\Chinook
 ````
+
+Note : le système ne permet pas de nommer le module 'ck-server' on utilise donc le nom 'Chinook'
+
 
 Editer le fichier C:\projets\chinook2\ck-server\config\modules.config.php pour ajouter le module Chinook.
 ````
@@ -85,3 +88,5 @@ return array(
 );
 
 ````
+
+Test du service /about via cette url : http://localhost:8888/about
