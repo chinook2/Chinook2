@@ -1,5 +1,6 @@
 #Environnement de développement (Serveur)
 
+- PHP : https://www.php.net (>= 5.5)
 - composer : https://getcomposer.org/download
 - Apigility : https://apigility.org  (1.3.x)
   - Utilise ZendFramework (2.5.x)
@@ -48,7 +49,7 @@ NameVirtualHost 127.0.0.1:8888
 
 ### Modules complémentaires
 
-On peut ajouter des modules complémentaires suivants :
+On peut ajouter les modules complémentaires suivants :
 
 ````
 >cd C:/projets/chinook2/ck-server
