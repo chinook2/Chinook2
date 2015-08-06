@@ -22,7 +22,7 @@ Editer le fichier : ck-appdemo\app.json
 Editer le fichier : ck-appdemo\classic\src\view\main\Main.js
 ````
 Ext.define('AppDemo.view.main.Main', {
-    extend: 'ck.View',
+    extend: 'Ck.View',
     xtype: 'app-main'
 });
 ````
