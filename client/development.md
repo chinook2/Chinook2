@@ -1,4 +1,4 @@
-#Environnement de développement
+#Environnement de développement (Client)
 
 - Tortoise git : https://tortoisegit.org
 - Install git : https://git-scm.com/downloads
