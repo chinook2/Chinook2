@@ -29,8 +29,8 @@ RewriteRule ^([A-Za-z0-9-]+)/?$ /cgi-bin/mapserv?map=/projets/chinook2/ck-data/m
 
 Transforme : 
 
-http://localhost:8080/wms/default/?LAYERS=region&amp;VERSION=1.1.0
+	http://localhost:8080/wms/default/?LAYERS=region&VERSION=1.1.0
 
 En :
 
-http://localhost:8080/cgi-bin/mapserv?map=/Projets/__Chinook2/ck-data/map/default.map/?LAYERS=region&VERSION=1.1.0
+	http://localhost:8080/cgi-bin/mapserv?map=/projets/chinook2/ck-data/map/default.map/?LAYERS=region&VERSION=1.1.0
