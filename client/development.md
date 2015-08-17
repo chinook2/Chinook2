@@ -1,4 +1,6 @@
-#Environnement de développement (Client)
+This document explain how to install development environment
+
+#Development environment (Client)
 
 - Tortoise git : https://tortoisegit.org
 - Install git : https://git-scm.com/downloads
@@ -7,22 +9,22 @@
 - Sencha Ext JS 6 GPL : https://www.sencha.com/legal/GPL/
   - http://cdn.sencha.com/ext/gpl/ext-6.0.0-gpl.zip
 
-Installer Sencha CMD de préférence dans C:\Sencha\Cmd et extJS dans C:\Sencha\ext-6.0.0
+Install Sencha CMD preferably in C:\Sencha\Cmd and extJS in C:\Sencha\ext-6.0.0
 
 
-##Installation de l’application de développement 
+##Development application installation
 
-Ajout de l’application dans le dossier C:/projets/chinook2
+Adding the application in the folder C:/projets/chinook2
 ```
 >cd C:/projets/chinook2
 >sencha -sdk C:/Sencha/ext-6.0.0 generate app AppDemo ck-appdemo
 ```
-La commande "sencha generate app" génère une application de démo de Ext.  
-L'option "-sdk [...]" indique l'emplacement de la librairie Ext. Si l'option est absente la version "trial" d'Ext sera téléchargée  
-L'option "AppDemo" indique le nom de l'applicaiton  
-L'option "ck-appdemo" indique dans quel dossier l'application doit être créée  
+Command "sencha generate app" generate an Ext demonstration application.
+The option "-sdk [...]" point to Ext library. Without this option the "trial" version of Ext is downloaded.
+The option "AppDemo" set the application name.
+The option "ck-appdemo" point to the folder where the application must be created  
 
-Edite le fichier : ck-appdemo\app.json
+Edit the file : ck-appdemo\app.json
 ````
 "requires": [
     "font-awesome",
@@ -45,31 +47,31 @@ Edite le fichier : ck-appdemo\app.json
     ]
 },
 ````
-En ajoutant "ck-viewer" on ajoute une dépendance => l'application aura besoin du package "ck-viewer" pour fonctionner.
+By adding "ck-viewer" one dependence is added => the application will require "ck-viewer" package to work.
 
-Todo: voir si utile de préciser les paramètres "toolkit" et "theme" !
+Todo: check if parameters "toolkit" and "theme" are useful
 
-Editer le fichier : ck-appdemo\classic\src\view\main\Main.js
+Edit the file : ck-appdemo\classic\src\view\main\Main.js
 ````
 Ext.define('AppDemo.view.main.Main', {
     extend: 'Ck.View',
     xtype: 'app-main'
 });
 ````
-Ce fichier contenait la vue principale de l'application. On a donc remplacé la page de démarrage de l'application de démo d'Ext par la vue de notre application.
+This file point to the main view of the application. We replaced Ext application start page by our application view.
 
-Supprimer l'ancien style de l'application de démo d'Ext
+Remove the old Ext application style
 ````
 >rmdir /S /Q ck-appdemo\classic\sass\src\view
 ````
 
-Option : ajouter dans le fichier ck-appdemo\.sencha\app\sencha.cfg
+Optional : add to the file ck-appdemo\.sencha\app\sencha.cfg
 ````
 skip.slice=1
 ````
-Cela désactive la compatibilité avec les anciens navigateurs, notamment la gestion des arrondis des fenêtres
+This disable compatibility with old browsers, especially the windows rounded management(it take a while).
 
-##Installation des sources des packages
+##Packages sources installation
 
 ````
 >mkdir ck-appdemo\packages\local
@@ -77,19 +79,18 @@ Cela désactive la compatibilité avec les anciens navigateurs, notamment la ges
 ````
 
 
-Lancer l’application
+Run application
 ````
 >cd ck-appdemo
 >sencha app watch
 ````
 
-Ouvrir le navigateur 
-http://localhost:1841/
+Run to http://localhost:1841/
 
-Note : pour travailler en temps réel sur les CSS : http://localhost:1841/?platformTags=fashion:true 
+Note : to work with real time CSS : http://localhost:1841/?platformTags=fashion:true 
 
-Compiler l’application
+Compil applicaiton
 ````
 >sencha app build
 ````
-Cela créé un dossier "production" dans le dossier "build"
+This create a "production" directory into "build" folder
