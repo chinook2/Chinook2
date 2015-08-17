@@ -20,8 +20,11 @@ Adding the application in the folder C:/projets/chinook2
 >sencha -sdk C:/Sencha/ext-6.0.0 generate app AppDemo ck-appdemo
 ```
 Command "sencha generate app" generate an Ext demonstration application.
+
 The option "-sdk [...]" point to Ext library. Without this option the "trial" version of Ext is downloaded.
+
 The option "AppDemo" set the application name.
+
 The option "ck-appdemo" point to the folder where the application must be created  
 
 Edit the file : ck-appdemo\app.json
