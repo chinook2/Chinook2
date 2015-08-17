@@ -1,4 +1,4 @@
-This document explain how to install development environment
+This document explain how to install a development environment
 
 #Development environment (Client)
 
@@ -65,7 +65,7 @@ Remove the old Ext application style
 >rmdir /S /Q ck-appdemo\classic\sass\src\view
 ````
 
-Optional : add to the file ck-appdemo\.sencha\app\sencha.cfg
+Optional : add to the file ck-appdemo\\.sencha\app\sencha.cfg
 ````
 skip.slice=1
 ````
