@@ -9,8 +9,9 @@ This document explain how to install a development environment
 - Sencha Ext JS 6 GPL : https://www.sencha.com/legal/GPL/
   - http://cdn.sencha.com/ext/gpl/ext-6.0.0-gpl.zip
 
-Install Sencha CMD preferably in C:\Sencha\Cmd and extJS in C:\Sencha\ext-6.0.0
+Install Sencha CMD preferably in C:\Sencha\Cmd and extJS in C:\Sencha\ext-6.0.0 (extract the folder)
 
+Add Git binaries path to the PATH environment variable
 
 ##Development application installation
 
@@ -82,7 +83,7 @@ This disable compatibility with old browsers, especially the windows rounded man
 ````
 
 
-Run application
+Launch the application
 ````
 >cd ck-appdemo
 >sencha app watch
@@ -90,9 +91,9 @@ Run application
 
 Run to http://localhost:1841/
 
-Note : to work with real time CSS : http://localhost:1841/?platformTags=fashion:true 
+Note : to work with non-cached CSS : http://localhost:1841/?platformTags=fashion:true 
 
-Compil applicaiton
+Compil application
 ````
 >sencha app build
 ````
