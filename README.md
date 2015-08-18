@@ -16,7 +16,7 @@ This project is under [BSD2 licence](http://opensource.org/licenses/BSD-2-Clause
 
 ##Installation
 
-client/application.md		: How to deploy the client application in production
+client/application.md		: How to deploy the client application in production  
 client/development.md		: How to setup a development environement
 
 
