@@ -15,6 +15,8 @@ And some examples :
 	 * 
 	 * Here a new Voici un nouveau paragraph (dual carriage return)
 	 *
+	 * ## Section title
+	 *
 	 * Here the third paragraph.<br/>
 	 * The second line of the thir paragraph
 	 *
@@ -22,7 +24,9 @@ And some examples :
 	 */ 
 	 
 	/**
-	 * For a simple property just set the description. Everything is automatically (type, default value)
+	 * For a simple property just set the description. Everything is automatically (type, default value) <br/>
+	 * Below it's reported as readonly
+	 * @readonly
 	 */
 	emptyText : 'Choose a color ...',
 
