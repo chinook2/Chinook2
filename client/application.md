@@ -1,17 +1,19 @@
-#Créer une nouvelle Application
+This document explain how to deploy the application in production
 
-Ajouter le dépôt distant (et vérification)
+#Create a new application
+
+Add remote repository and check it
 ````
 >sencha repository add ck http://chinook2.github.io/Chinook2/pkgs
 >sencha repository list
 ````
 
-Initialiser une application standard
+Initialize a standard application
 ````
 >sencha -sdk /Sencha/ext-6.0.0 generate app AppDemo ck-appdemo
 ````
 
-Editer le fichier : ck-appdemo\app.json
+Edit the file : ck-appdemo\app.json
 ````
 "requires": [
   "font-awesome",
@@ -19,7 +21,7 @@ Editer le fichier : ck-appdemo\app.json
 ],
 ````
 
-Editer le fichier : ck-appdemo\classic\src\view\main\Main.js
+Edit the file : ck-appdemo\classic\src\view\main\Main.js
 ````
 Ext.define('AppDemo.view.main.Main', {
     extend: 'Ck.View',
@@ -27,9 +29,9 @@ Ext.define('AppDemo.view.main.Main', {
 });
 ````
 
-Supprimer le dossier : ck-appdemo\classic\sass\src\view
+Remove directory : ck-appdemo\classic\sass\src\view
 
-Build de l’application afin d’intégrer le package ck-viewer (download auto depuis le dépôt distant)
+Application build to integrate the ck-viewer package (auto download from remote repository)
 ````
 ck-appdemo>sencha app build
 Sencha Cmd v6.0.0.202
@@ -39,17 +41,17 @@ Sencha Cmd v6.0.0.202
 ...
 ````
 
-L’application se lance avec une interface par défaut.
+The application starts with a default interface.
 
 
 ##TODO
 
-Utiliser des templates d’application !
+Use application templates !
 ````
 sencha generate package ck-app --type TEMPLATE
 ````
 
-On init alors le repo des packages et on lance
+Repository initialization and launching
 ````
 sencha generate app --template ck-app AppDemo ./ck-appdemo 
 ````
