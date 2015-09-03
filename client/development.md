@@ -11,6 +11,7 @@ This document explain how to install a development environment
 
 Install Sencha CMD preferably in C:\Sencha\Cmd and extJS in C:\Sencha\ext-6.0.0 (extract the folder)
 
+Maybe nedd adding JDK path to the JAVA_HOME environment variable
 Add Git binaries path to the PATH environment variable
 
 ##Development application installation
