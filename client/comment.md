@@ -10,10 +10,10 @@ And some examples :
 ```javascript
 	/**
 	 * @class Chinook.component.ContextPanel
-	 * Beginning of the description
-	 * This text will be next "Beginning of the description" without new line
+	 * Beginning of the description.
+	 * This text will be next "Beginning of the description" with just a space (no new line).
 	 * 
-	 * Here a new Voici un nouveau paragraph (dual carriage return)
+	 * Here a new paragraph (dual carriage return). Complete lines through a point everytimes.
 	 *
 	 * ## Section title
 	 *
@@ -21,6 +21,7 @@ And some examples :
 	 * The second line of the thir paragraph
 	 *
 	 * @extends Chinook.parent.class
+	 * @singleton
 	 */ 
 	 
 	/**
@@ -35,7 +36,10 @@ And some examples :
 	 * Short description of a more complicated property.
 	 * Complément qui ne s'affiche quand on déroule le bloc (est sur la même ligne que la description court)
 	 *
-	 * Deuxième paragraphe de description
+	 * Second description paragraph with a list :
+	 *
+	 * - First item : empty line before is require to render a list
+	 *	- Before "-" you have to put beetween 0 and 4 space or one (and only one) tabulation
 	 */
 	example: 'default_value'
 	 
@@ -52,7 +56,17 @@ And some examples :
 
 	/**
 	 * @method initialize
-	 * Create a new Edit strategy.
+	 * Create a new Edit strategy. Random list :
+	 * 
+	 * - 1
+	 * - 2
+	 *
+	 * Now an highlight example. At least one non-empty line is mandatory between a list and a example !!
+	 *
+	 *     var example = "An empty line is required before the example";
+	 *		example = example + "at least 5 space or 2 tabulation are needed to render highlight text";
+	 *
+	 *     var LF = "You can leave an empty line into the code, it don't break code box";
 	 *
 	 * @param {Object} Parameter's comment
 	 *
