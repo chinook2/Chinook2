@@ -95,6 +95,7 @@ Note : to work with non-cached CSS : http://localhost:1841/?platformTags=fashion
 
 Compil application
 ````
->sencha app build
+>sencha app build [classic]
 ````
+The "classic" modifier is required when building with Sencha Cmd 6.0.1
 This create a "production" directory into "build" folder
