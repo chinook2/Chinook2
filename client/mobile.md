@@ -10,7 +10,8 @@ First visit https://github.com/chinook2/Chinook2/blob/master/client/development.
    - you can specify cordova version like this : npm install -g cordova@5.4.0
    
  - Android SDK : http://developer.android.com/sdk/index.html#Other
- 
+ - ADB Driver (optional) : https://github.com/koush/UniversalAdbDriver
+
 Verify SDK Platform (Platform-tools and Build-tools), run the following command :
 ````
 >android
