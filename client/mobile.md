@@ -34,10 +34,6 @@ To add Cordova support modify your applications app.json builds block as follows
         "theme": "theme-triton"
     },
     "modern": {
-        "toolkit": "modern",
-        "theme": "theme-cupertino"
-    },
-    "android": {
         "toolkit": "classic",
         "theme": "theme-triton",
         "packager": "cordova",
@@ -62,6 +58,6 @@ To add Cordova support modify your applications app.json builds block as follows
 Building
 
 `````
->sencha app build android
+>sencha app build modern
 ````
 
