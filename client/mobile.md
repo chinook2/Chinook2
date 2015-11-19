@@ -61,3 +61,44 @@ Building
 >sencha app build modern
 ````
 
+
+## Options
+
+To show a splash screen ...
+
+````
+>cordova\cordova plugin add cordova-plugin-splashscreen
+````
+
+config.xml : 
+
+Files are in \ProjectName\cordova\src
+
+````
+<platform name="android">
+		<icon src="res/icon-hdpi.png" density="ldpi"/>
+		<icon src="res/icon-hdpi.png" density="mdpi"/>
+		<icon src="res/icon-hdpi.png" density="hdpi"/>
+		<icon src="res/icon-hdpi.png" density="xhdpi"/>
+		
+		<splash src="res/splash-land-xhdpi.png" density="land-xhdpi"/>
+		<splash src="res/splash-land-hdpi.png" density="land-hdpi"/>
+		<splash src="res/splash-land-hdpi.png" density="land-mdpi"/>
+		<splash src="res/splash-land-hdpi.png" density="land-ldpi"/>
+		
+		<splash src="res/splash-port-xhdpi.png" density="port-xhdpi"/>		
+		<splash src="res/splash-port-hdpi.png" density="port-hdpi"/>
+		<splash src="res/splash-port-hdpi.png" density="port-mdpi"/>
+		<splash src="res/splash-port-hdpi.png" density="port-ldpi"/>
+</platform>
+<preference name="SplashScreen" value="screen" />
+<preference name="SplashScreenDelay" value="10000" />
+````
+
+In Application.js to hide the screen when app is ready : 
+
+````
+launch: function () {
+		// Cordova splashscreen
+		if(navigator.splashscreen) navigator.splashscreen.hide();
+````
