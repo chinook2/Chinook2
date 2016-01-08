@@ -73,14 +73,15 @@ Two things will be built :
  - the PC version in [root]/build/production/[app_name]
  - the mobile version in [root]/cordova/platforms/android/build/outputs/android-debug.apk
  
-By default build process use "production" value (and no "testing")
+By default build process use "production" value (and not "testing")
 
 To run application transfer the APK to the device and launch it from file explorer
 
 ## Quick deployment
 
-First check on your device if USB debugging is ON. See about : https://www.kingoapp.com/root-tutorials/how-to-enable-usb-debugging-mode-on-android.htm
+You can launch your application on your device without having to transfer the APK on it.
 
+First check on your device if USB debugging is ON. See about : https://www.kingoapp.com/root-tutorials/how-to-enable-usb-debugging-mode-on-android.htm
 Then check if the USB connection mode is Mass Storage. See about : http://www.device-recovery.com/how-to-connect-android-devices-to-pc-with-usb-mass-storage-mode#note3
 
 To check if the device is properly connected run this command to try to see your device
