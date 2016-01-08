@@ -1,9 +1,9 @@
-Ajouter C:\Program Files (x86)\Universal Adb Driver
-
 This document explain how to complete a development environment for building mobile apps with Cordova.
 Path examples are designed for 64 bits environment, for 32 bits replace "Program Files (x86)" by "Program Files"
 
-#Development environment (Client Mobile)
+# Development environment (Client Mobile)
+
+## Installation
 
 First visit https://github.com/chinook2/Chinook2/blob/master/client/development.md
 
@@ -31,9 +31,6 @@ If an error occured for the installation re-run the SDK Manager as administrator
 *IMPORTANT* : Cordova 5.4.x need API 22 !
 For API 19 use Cordova x.x.x
 
-
-
-##Development application installation
 
 To add Cordova support modify your applications app.json builds block as follows :
 
@@ -64,23 +61,47 @@ To add Cordova support modify your applications app.json builds block as follows
  ````
 
  
-Building
+## Building
+
+To run the build use this command in the root of the application
 
 `````
->sencha app build modern
+>sencha app build [testing/production]
 ````
 
-If an android device is properly configured you can directly run the application with
+Two things will be built :
+ - the PC version in [root]/build/production/[app_name]
+ - the mobile version in [root]/cordova/platforms/android/build/outputs/android-debug.apk
+ 
+By default build process use "production" value (and no "testing")
 
-`````
->sencha app run android
-````
+To run application transfer the APK to the device and launch it from file explorer
 
-To list connected device what can directly host the applicaiton use
+## Quick deployment
+
+First check on your device if USB debugging is ON. See about : https://www.kingoapp.com/root-tutorials/how-to-enable-usb-debugging-mode-on-android.htm
+
+Then check if the USB connection mode is Mass Storage. See about : http://www.device-recovery.com/how-to-connect-android-devices-to-pc-with-usb-mass-storage-mode#note3
+
+To check if the device is properly connected run this command to try to see your device
 
 `````
 >adb devices
 ````
+
+If it's fine run this command to launch the application on your device
+
+`````
+>sencha app run [testing/production]
+````
+
+## Debugging
+
+For classic building or quick deployement, once the application is running on the device, open Chrome on the PC which is connected to the tablet and go to
+
+chrome://inspect/#devices
+
+You should see your device. Click on "inspect" to open developer tools.
 
 ## Options
 
