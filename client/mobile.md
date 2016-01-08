@@ -144,3 +144,9 @@ launch: function () {
 		// Cordova splashscreen
 		if(navigator.splashscreen) navigator.splashscreen.hide();
 ````
+
+# Links
+
+File manipulation on android : https://github.com/apache/cordova-plugin-file
+
+Sencha CMD command info : https://www.sencha.com/blog/sencha-cmd-enterprise-workflow/
