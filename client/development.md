@@ -9,7 +9,7 @@ This document explain how to install a development environment
 - Sencha Ext JS 6 GPL : https://www.sencha.com/legal/GPL/
   - http://cdn.sencha.com/ext/gpl/ext-6.0.0-gpl.zip
 
-Install Sencha CMD preferably in C:\Sencha\Cmd and extJS in C:\Sencha\ext-6.0.0 (extract the folder)
+Install Sencha CMD preferably in C:\Sencha\Cmd\6.x.x and extJS in C:\Sencha\ext-6.0.0 (extract the folder)
 
 Add Git binaries path to the PATH environment variable
 
