@@ -5,7 +5,7 @@ This document explain how to install a development environment
 - Tortoise git : https://tortoisegit.org
 - Install git : https://git-scm.com/downloads
 - Sencha cmd : https://www.sencha.com/products/extjs/cmd-download/
-  - http://cdn.sencha.com/cmd/6.0.0.202/jre/SenchaCmd-6.0.0.202-windows-32bit.zip
+  - http://cdn.sencha.com/cmd/6.0.2/jre/SenchaCmd-6.0.2-windows-32bit.zip
 - Sencha Ext JS 6 GPL : https://www.sencha.com/legal/GPL/
   - http://cdn.sencha.com/ext/gpl/ext-6.0.0-gpl.zip
 
