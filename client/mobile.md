@@ -9,8 +9,8 @@ First visit https://github.com/chinook2/Chinook2/blob/master/client/development.
 
  - Java JDK : http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
  - Node.js : https://nodejs.org/en/
- - Cordova : npm install -g cordova
-   - you can specify cordova version like this : npm install -g cordova@5.4.0
+ - Cordova : npm install -g cordova@5.4.0
+   - you must specify cordova version like this : npm install -g cordova@5.4.0
    if npm command not found check if "C:\Program Files\nodejs" is present in PATH environment variable
  - Android SDK : http://developer.android.com/sdk/index.html#Other
    - prefer to install the SDK here : C:\Program Files (x86)\AndroidSDK
