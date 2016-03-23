@@ -4,6 +4,19 @@ Entry point for the Chinook 2 Platform.
 * Client
   * ck-viewer : Web viewer
   * ck-admin : Web Admin interface
+  
+  List of libraries used
+     *	Ext.js 6.0.0 GPL / Sencha CMD
+     *	OpenLayers 3.12.1)
+     *	Others libraries
+       *	Proj4js
+       *	Turf
+       *	Shapefile-js
+       *	Pdf.js
+       *	Jspdf
+       *	zip
+  
+
 * Server
   * ck-server : REST API server to manage Users, Contexts, Layers...
 
