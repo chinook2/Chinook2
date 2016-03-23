@@ -7,7 +7,7 @@ Entry point for the Chinook 2 Platform.
   
   List of libraries used
      *	Ext.js 6.0.0 GPL / Sencha CMD
-     *	OpenLayers 3.12.1)
+     *	OpenLayers 3.12.1
      *	Others libraries
        *	Proj4js
        *	Turf
