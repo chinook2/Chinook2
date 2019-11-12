@@ -13,7 +13,7 @@ First visit https://github.com/chinook2/Chinook2/blob/master/client/development.
    - you must specify cordova version like this : npm install -g cordova@5.4.0
    if npm command not found check if "C:\Program Files\nodejs" is present in PATH environment variable
    - uninstall command : npm uninstall -g cordova
- - Android SDK : http://developer.android.com/sdk/index.html#Other
+ - Android SDK : https://developer.android.com/studio#command-tools
    - prefer to install the SDK here : C:\Program Files (x86)\AndroidSDK
  - ADB Driver (optional) : https://github.com/koush/UniversalAdbDriver
 
